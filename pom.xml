@@ -24,7 +24,7 @@
 
   <artifactId>ratis</artifactId>
   <groupId>org.apache.ratis</groupId>
-  <version>1.1.0-SNAPSHOT</version>
+  <version>1.1.0-913f5a4-SNAPSHOT</version>
   <name>Apache Ratis</name>
   <packaging>pom</packaging>
   <description>
@@ -204,12 +204,12 @@
     <findbugs.version>3.0.0</findbugs.version>
     <wagon-ssh.version>1.0</wagon-ssh.version>
 
-    <distMgmtSnapshotsId>apache.snapshots.https</distMgmtSnapshotsId>
+    <distMgmtSnapshotsId>tianqiong-snapshots-repo</distMgmtSnapshotsId>
     <distMgmtSnapshotsName>Apache Development Snapshot Repository</distMgmtSnapshotsName>
-    <distMgmtSnapshotsUrl>https://repository.apache.org/content/repositories/snapshots</distMgmtSnapshotsUrl>
-    <distMgmtStagingId>apache.staging.https</distMgmtStagingId>
+    <distMgmtSnapshotsUrl>https://mirrors.tencent.com/repository/maven/tianqiong-snapshots</distMgmtSnapshotsUrl>
+    <distMgmtStagingId>tianqiong-releases-repo</distMgmtStagingId>
     <distMgmtStagingName>Apache Release Distribution Repository</distMgmtStagingName>
-    <distMgmtStagingUrl>https://repository.apache.org/service/local/staging/deploy/maven2</distMgmtStagingUrl>
+    <distMgmtStagingUrl>https://mirrors.tencent.com/repository/maven/tianqiong-releases</distMgmtStagingUrl>
 
     <shell-executable>bash</shell-executable>
 
